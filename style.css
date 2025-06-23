@@ -1,0 +1,153 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      box-sizing: border-box;
+}
+
+body {
+      background: linear-gradient(135deg, #f3f0ff 0%, #e9e4f5 100%);
+      min-height: 100vh;
+}
+
+a{
+      color: #4B3869;
+      font-weight: 600;
+      text-decoration: none;
+      font-family: 'Brush Script MT', cursive;
+      transition: color 0.2s;
+}
+
+a:hover {
+      color: #806BDC;
+      text-shadow: 0 1px 4px #d1c4e9;
+}
+
+header{
+      height: 70px;
+      background: linear-gradient(90deg, #806BDC 60%, #A084E8 100%);
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(128, 107, 220, 0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.NavBar{
+      padding-top: 18px;
+}
+
+#navbar-title{
+      color: #fff;
+      font-size: 32px;
+      letter-spacing: 2px;
+      font-weight: bold;
+      text-shadow: 0 2px 8px #6c5ce7;
+}
+
+.Items{
+      padding: 30px 0 30px 0;
+      background: #fff;
+      border-radius: 16px;
+      margin: 30px auto;
+      width: 90vw;
+      box-shadow: 0 4px 24px rgba(128, 107, 220, 0.07);
+}
+
+#item-table{
+      width: 100%;
+      text-align: center;
+      border-spacing: 0 12px;
+}
+
+.Item-img{
+      height: 80px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px #d1c4e9;
+      transition: transform 0.2s;
+}
+
+.Item-img:hover {
+      transform: scale(1.4);
+}
+
+.Item-tag{
+      font-size: 16px;
+      color: #4B3869;
+      font-weight: 500;
+      transition: color 0.2s;
+      
+}
+
+.Item-tag:hover{
+      color: #806BDC;
+      text-decoration: underline;
+      transform: scale(1.4);
+      
+}
+
+.Shopping-container{
+      background: linear-gradient(120deg, #f3f0ff 60%, #e9e4f5 100%);
+      text-align: center;
+      padding-bottom: 40px;
+      border-radius: 18px;
+      margin: 32px auto;
+      width: 94vw;
+      box-shadow: 0 4px 24px rgba(128, 107, 220, 0.07);
+}
+
+#shopping-time-img{
+      margin-top: 30px;
+      width: 90vw;
+      max-width: 900px;
+      height: 60vh;
+      object-fit: cover;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px #d1c4e9;
+}
+
+.Sales-table{
+      width: 90vw;
+      margin: 32px auto;
+      border: 1px solid #d1c4e9;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(128, 107, 220, 0.08);
+}
+
+.Sales-table th, .Sales-table td {
+      padding: 14px 18px;
+      border-bottom: 1px solid #eee;
+}
+
+.Sales-table-head{
+      background: linear-gradient(90deg, #806BDC 60%, #A084E8 100%);
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+}
+
+.Infromation{
+      width: 92vw;
+      margin: 30px auto;
+      font-size: 13px;
+      color: #878787;
+      list-style-position: inside;
+      background: #f8f6ff;
+      border-radius: 10px;
+      padding: 18px 24px;
+      box-shadow: 0 2px 8px #e9e4f5;
+}
+
+footer{
+      height: 60px;
+      padding-top: 22px;
+      background: linear-gradient(90deg, #4B3869 60%, #806BDC 100%);
+      color: #fff;
+      text-align: center;
+      font-size: 15px;
+      letter-spacing: 1px;
+      box-shadow: 0 -2px 8px #d1c4e9;
+}
